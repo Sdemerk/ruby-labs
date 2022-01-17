@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Реализовать web приложение на базе ruby on rails, которое позволит создавать пользовательские (можно принять за студентов) отчеты лабораторных работ и ставить им оценки.
+Пользователей можно предсоздать из консоли приложения (rails c), либо реализовать отдельный интерфейс для их создания, но пока это не обязательно
 
-Things you may want to cover:
+Требования:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Lab report
+Title - обязателен, длина не должна превышать больше 250 символов
+Description - длина не должна превышать больше 500 символов
+Grade - Оценка по системе ECTS (A, B, C, D, E, FX, F)
+User
+First name - обязателен, длина не должна превышать больше 100 символов
+Last name - обязателен, длина не должна превышать больше 100 символов
+Email - обязателен, длина не должна превышать больше 150 символов, должен соответствовать формату email
